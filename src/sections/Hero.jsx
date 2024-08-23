@@ -17,7 +17,7 @@ const Hero = () => {
             The new arrivals
           </span>
           <br />
-          <span className='text-blue-700 inline-block mt-3 mr-2'> S </span>
+          <span className='text-blue-700 inline-block mt-3 '> S</span>peed
           shoes
         </h1>
         <p className='text-blue-400 mt-6 mb-14 text-lg leading-8 sm:max-w-s'>Discover our latest collection , quality and looks , comfort and luxary</p>
@@ -38,7 +38,7 @@ const Hero = () => {
         </div>
       </div>
       <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-cover bg-center bg-blue-50'>
-        <img src={bigShoeImg} alt="shoe" width={610} height={500} className="object-contain relative z-[1] duration-100" />
+        <img src={bigShoeImg} alt="shoe" width={610} height={500} className="object-contain relative z-[1] duration-100 " />
         <div className='absolute bottom-[-5%] flex sm:gap-6 gap-4 sm:lef-[10%] max-sm:px-6 mt-2 '>
           {
             shoes.map((shoe) => {return (

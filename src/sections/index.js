@@ -5,5 +5,5 @@ import CustomerReviews from "./CustomerReviews";
 import PopularProducts from "./PopularProducts";
 import Services from "./Services";
 import SpecialOffers from "./SpecialOffers";
-
-export {Subscribe, Hero, Footer, CustomerReviews, PopularProducts, Services, SpecialOffers}
+import Quality from "./Quality";
+export {Quality,Subscribe, Hero, Footer, CustomerReviews, PopularProducts, Services, SpecialOffers}
