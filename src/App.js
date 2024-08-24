@@ -1,4 +1,4 @@
-import { Subscribe, Hero, Footer, CustomerReviews, PopularProducts, Services, SpecialOffers, Quality } from "./sections/index";
+import { Subscribe, Hero, Footer, CustomerReviews, PopularProducts, Services, Quality } from "./sections/index";
 import { Nav } from "./components/index";
 
 function App() {
@@ -16,9 +16,6 @@ function App() {
       </section>
       <section className="padding py-10">
         <Services />
-      </section>
-      <section className="padding">
-        <SpecialOffers />
       </section>
       <section className="padding bg-blue-100 ">
         <CustomerReviews />

@@ -8,7 +8,7 @@ const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
     return (
       <div
         className={`border-2 rounded-xl ${
-          bigShoeImg === imgURL.bigShoe
+          (bigShoeImg === imgURL.bigShoe)
             ? 'border-violet-500'
             : "border-transparent"
         } cursor-pointer max-sm:flex-1`}
